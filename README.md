@@ -6,3 +6,5 @@ This filter made to help people get rid of overlay popups *(dimmer, timer, light
 This keep you enjoying to read articles from websites without getting interrupted.<br />
 Here's an example, when you enter some sites (mostly clickbait news) you will see something [like this!](http://upic.me/show/57674495)<br />
 You can combine with [Fanboy's filter](https://fanboy.co.nz) (Third-party social blocking list and/or Fanboy ultimate list), but it's better to use with my filter because it will remove overlay box that still remaining while social network widgets has been unloaded.<br />
+
+> You can see old code in [PasteBin](http://pastebin.com/VU7275gQ), but it's need some scratch, that's mean I need to cleanup before port to here.
