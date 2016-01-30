@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Thai AntiForceLike Filter (GitHub Version)
-! Version: 201601251914
+! Version: 201601301319
 ! Author: kowith337
 ! Homepage: https://github.com/kowith337/ThaiAntiForceLike
 ! Expires: 1 day
@@ -140,20 +140,22 @@ toritalk.com##.bottomad
 toritalk.com##.jquery-modal.blocker
 toritalk.com##.td-front-end-display-block
 toritalk.com##.topad
+upic.me###basic-modal-content
+upic.me###simplemodal-container
+upic.me###simplemodal-overlay
 zaapmak.com##iframe
 
 ! Script, Stylesheet and Sensitive blocking rules
 ||anitime.in.th/*/easy-facebook-likebox/*?
 ||araidii.com/*/facebook-popup-box/*
+||brandbuffet.in.th/*/social-popup/*?
 ||coregamerth.com/*/jquery-cookie/*
 ||coregamerth.com/*/popups/*
 ||dodeden.com^$other,intro
 ||dodeden.com^$script,intro
-||game-tep.com/*/adrotate-pro/*
 ||game-tep.com/*/fancy-box/*
 ||juropy.com/*/facebook-page-promoter-lightbox/*
 ||kaijeaw.com/*/like_box.min.js
-||kidjarak.com/*/bsa-pro-scripteo/*
 ||kidjarak.com/*/easy-facebook-likebox/*
 ||ladycee.com/light_ads^
 ||laughwoo.com/*/floating-social-bar/*
@@ -166,17 +168,12 @@ zaapmak.com##iframe
 ||oopsmobile.net/*/arscode-ninja-popups/*
 ||petmaya.com/*/facebook-page-promoter-lightbox-premium/*
 ||pol-ball.com/*/facebook-popup-box/*
-||siamza.com/js/jquery.cookie.js
-||sistacafe.com/scripts/nytive
-||sistacafe.com/scripts/truehits?
 ||taghr.net/*/uji-popup/*
 ||techmoblog.com/*/jquery.colorbox-min.js
 ||thailandbestbeauty.com/colorbox^
 ||thailandbestbeauty.com/*/colorbox.css?
-||thaihitz.com/*/jquery.cookie.js
 ||thaihitz.com/*/like_box.js
 ||thaijobsgov.com/*/fancybox/*
-||thaijobsgov.com/banner^
 ||thaimobilecenter.com/colorbox^
 ||thaiza.com/nodo.html
 ||thetechr.com/*/jinda-facebook-lightbox/*
@@ -207,5 +204,6 @@ boxzaracing.com##script:contains(bzpopup_timer)
 dspzeeplus.com##script:contains(popup_facebook_box)
 liekr.com##script:contains($showLikePopup)
 manyum.com##script[id="ui_popup_window_tpl"]
+postjung.com##script:contains(fbpop)
 teededball.com##script:contains(bzpopup_timer)
 tnews.co.th##script:contains(ShowModal)
