@@ -1,5 +1,5 @@
 # ThaiAntiForceLike
-###Get rid of "Overlay Popups" that **trying to force you to like and/or follow social network pages and accounts.**
+###Get rid of "Overlay Popups" that **trying to integrate your social network account, force you to like and/or follow pages and other accounts.**
 #####*Sorry, this filter mainly targeting to sites in Thailand, again.
 
 This filter made to help people get rid of overlay popups *(dimmer, timer, lightbox, colorbox,...)* that trying to force users who browse the web to like Facebook pages or follow social network accounts. *(Twitter, Google+, LINE@, etc.)*<br />
