@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Thai AntiForceLike Filter (GitHub Version)
-! Version: 201602041445
+! Version: 201602041509
 ! Author: kowith337
 ! Homepage: https://github.com/kowith337/ThaiAntiForceLike
 ! Expires: 1 day
@@ -161,6 +161,7 @@ zaapmak.com##iframe
 ||kidjarak.com/*/easy-facebook-likebox/*
 ||ladycee.com/light_ads^
 ||laughwoo.com/*/floating-social-bar/*
+||laughwoo.com/*/like-jacking-ninja/*
 ||lonely-rooyang.com/*/arscode-ninja-popups/*
 ||manyum.com^$script,ui_popup_window_tpl
 ||meekhao.com/*/dreamgrow-scroll-triggered-box/*
