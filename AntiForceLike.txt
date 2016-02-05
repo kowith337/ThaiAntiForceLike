@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Thai AntiForceLike Filter (GitHub Version)
-! Version: 201602041509
+! Version: 201602051138
 ! Author: kowith337
 ! Homepage: https://github.com/kowith337/ThaiAntiForceLike
 ! Expires: 1 day
@@ -146,10 +146,10 @@ upic.me###simplemodal-overlay
 zaapmak.com##iframe
 
 ! Script, Stylesheet and Sensitive blocking rules
-||anitime.in.th/*/easy-facebook-likebox/*?
-||araideewa.com/*/facebook-fanbox-popup/*?
+||anitime.in.th/*/easy-facebook-likebox/*
+||araideewa.com/*/facebook-fanbox-popup/*
 ||araidii.com/*/facebook-popup-box/*
-||brandbuffet.in.th/*/social-popup/*?
+||brandbuffet.in.th/*/social-popup/*
 ||coregamerth.com/*/jquery-cookie/*
 ||coregamerth.com/*/popups/*
 ||dodeden.com^$other,intro
@@ -166,7 +166,7 @@ zaapmak.com##iframe
 ||manyum.com^$script,ui_popup_window_tpl
 ||meekhao.com/*/dreamgrow-scroll-triggered-box/*
 ||meepanda.com/*/new-facebook-popup-likebox-responsive/*
-||newstimeline.net/*/jquery.magnific-popup.min.js?
+||newstimeline.net/*/jquery.magnific-popup.min.js
 ||online-station.net/assets/scripts/intro.min.js
 ||oopsmobile.net/*/arscode-ninja-popups/*
 ||petmaya.com/*/facebook-page-promoter-lightbox-premium/*
@@ -175,7 +175,7 @@ zaapmak.com##iframe
 ||taghr.net/*/uji-popup/*
 ||techmoblog.com/*/jquery.colorbox-min.js
 ||thailandbestbeauty.com/colorbox^
-||thailandbestbeauty.com/*/colorbox.css?
+||thailandbestbeauty.com/*/colorbox.css
 ||thaihitz.com/*/like_box.js
 ||thaijobsgov.com/*/fancybox/*
 ||thaimobilecenter.com/colorbox^
@@ -185,7 +185,7 @@ zaapmak.com##iframe
 ||yakjado.com/*/easy-facebook-likebox/*
 ||yakjado.com/*/upprev/*
 ||yakjado.com/*/wp-social-popup-and-get-traffic/*
-||yaklai.com/*/ud-social/*?
+||yaklai.com/*/ud-social/*
 
 ! 3P Block (Maybe break some sites and can't like, comments, share via Facebook on those sites)
 ||connect.facebook.net^$domain=autocar.in.th
