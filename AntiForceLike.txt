@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Thai AntiForceLike Filter (GitHub Version)
-! Version: 201602131902
+! Version: 201602171555
 ! Author: kowith337
 ! Homepage: https://github.com/kowith337/ThaiAntiForceLike
 ! Expires: 1 day
@@ -8,7 +8,8 @@
 ! This filter can block widget box that show and try to force users to Like the page(s) for some news site,
 ! include widget that show while scrolling down on news page and float cover that prevent you to see content.
 ! Works for desktop view only.
-! This paste doesn't guaranteed about all rules are compatible to use in AdBlock Plus or any Ad-Blocking extension filter, except uBlock0 (Also work very effective on Firefox).
+! This paste doesn't guaranteed about all rules are compatible to use in AdBlock Plus or any Ad-Blocking extension filter,
+! except uBlock0 (Also work very effective on Firefox).
 
 ! Generic
 12sum.com##.item-thumbs .hover-wrap
@@ -29,6 +30,11 @@ coregamerth.com###check-also-box
 dodeden.com###facebookpopup-fanback
 dodeden.com###intro
 dspzeeplus.com##.popup-box
+dspzeeplus.com###fbox-background
+dspzeeplus.com###fbox-button
+dspzeeplus.com###fbox-close
+dspzeeplus.com###fbox-display
+dspzeeplus.com###fbox-link
 dspzeeplus.com###twist-blogger-fan-page
 extremepc.in.th###arevicofancy-loading
 extremepc.in.th###arevicofancy-overlay
@@ -89,6 +95,9 @@ online-station.net##.bjqs
 online-station.net##.introjs-overlay
 online-station.net##.introjs-helperLayer
 online-station.net##.introjs-tooltipReferenceLayer
+online-station.net###ads-overlay
+online-station.net###ads-preload-popup
+online-station.net###close-preload
 online-station.net###welcome
 oopsmobile.net##.fancybox-overlay
 oopsmobile.net##.fancybox-wrap
@@ -153,35 +162,40 @@ zaapmak.com##iframe
 ||brandbuffet.in.th/*/social-popup/*
 ||coregamerth.com/*/jquery-cookie/*
 ||coregamerth.com/*/popups/*
-||dodeden.com^$other,intro
-||dodeden.com^$script,intro
+||frynn.com/*/fb-traffic-pop/*
 ||game-tep.com/*/fancy-box/*
+||ithaihotnews.com/*/like-jacking-ninja/*
 ||itnews24hrs.com/*/facebook-page-promoter-lightbox/*
 ||japanexpothailand.org/*/facebook-fanbox-popup/*
 ||juropy.com/*/facebook-page-promoter-lightbox/*
 ||kaijeaw.com/*/fancybox/*
 ||kaijeaw.com/*/like_box*
-||kanomjeeb.com/*/lightbox.*
+||kanomjeeb.com/*/lightbox*
 ||kidjarak.com/*/easy-facebook-likebox/*
 ||ladycee.com/light_ads^
 ||laughwoo.com/*/floating-social-bar/*
 ||laughwoo.com/*/like-jacking-ninja/*
+||likessara.com/*/like-fb/*
 ||lonely-rooyang.com/*/arscode-ninja-popups/*
 ||manyum.com^$script,ui_popup_window_tpl
 ||meekhao.com/*/dreamgrow-scroll-triggered-box/*
 ||meepanda.com/*/new-facebook-popup-likebox-responsive/*
 ||miru-anime.net/*/popups/*
-||miru-anime.net/?spu_action*
+||miruanime.net/*/popups/*
 ||newstimeline.net/*/jquery.magnific-popup.min.js
-||online-station.net/assets/scripts/intro.min.js
+||online-station.net/*/intro.min.js
+||online-station.net/*/jquery.preload_ads.js
+||online-station.net/*/preload_welcome.php
 ||oopsmobile.net/*/arscode-ninja-popups/*
 ||petmaya.com/*/facebook-page-promoter-lightbox-premium/*
 ||pol-ball.com/*/facebook-popup-box/*
+||shopspotapp.com/*/popups/*
 ||siamchatroom.com/light_ads^
+||siamok.com/light_ads/*
 ||spokedark.tv/*/ud-social/*
 ||taghr.net/*/uji-popup/*
-||techmoblog.com/*/jquery.colorbox-min.js
-||thailandbestbeauty.com/colorbox^
+||techmoblog.com/*colorbox*
+||thailandbestbeauty.com/*colorbox*
 ||thailandbestbeauty.com/*/colorbox.css
 ||thaihitz.com/*/like_box.js
 ||thaijobsgov.com/*/fancybox/*
@@ -194,13 +208,23 @@ zaapmak.com##iframe
 ||yakjado.com/*/wp-social-popup-and-get-traffic/*
 ||yaklai.com/*/ud-social/*
 
+! Special Tag Rules
+||dodeden.com^$other,intro
+||dodeden.com^$script,intro
+||miruanime.net/?spu_action$xmlhttprequest
+||miru-anime.net/?spu_action$xmlhttprequest
+
 ! 3P Block (Maybe break some sites and can't like, comments, share via Facebook on those sites)
 ||connect.facebook.net^$domain=autocar.in.th
 ||connect.facebook.net^$domain=boxza.com
 ||connect.facebook.net^$domain=boxzaracing.com
 ||connect.facebook.net^$domain=dspzeeplus.com
+||connect.facebook.net^$domain=pol-ball.com
 ||connect.facebook.net^$domain=teededball.com
+||connect.facebook.net^$domain=thaihitz.com
+||connect.facebook.net^$domain=tnews.co.th
 ||facebook.com/plugins/like.php?$domain=ladycee.com
+||facebook.com/plugins/like.php?$domain=liekr.com
 ||facebook.com/plugins/likebox.php?$domain=autocar.in.th
 ||facebook.com/plugins/likebox.php?$domain=dspzeeplus.com
 ||facebook.com/plugins/likebox.php?$domain=ladycee.com
@@ -216,5 +240,6 @@ dspzeeplus.com##script:contains(popup_facebook_box)
 liekr.com##script:contains($showLikePopup)
 manyum.com##script[id="ui_popup_window_tpl"]
 postjung.com##script:contains(fbpop)
+share-si.com##script:contains(ccpop)
 teededball.com##script:contains(bzpopup_timer)
 tnews.co.th##script:contains(ShowModal)
