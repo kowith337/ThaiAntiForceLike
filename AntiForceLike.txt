@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Thai AntiForceLike Filter (GitHub Version)
-! Version: 201602171555
+! Version: 201602201353
 ! Author: kowith337
 ! Homepage: https://github.com/kowith337/ThaiAntiForceLike
 ! Expires: 1 day
@@ -29,13 +29,13 @@ clip-th.com##div[data-dismiss="modal"]
 coregamerth.com###check-also-box
 dodeden.com###facebookpopup-fanback
 dodeden.com###intro
-dspzeeplus.com##.popup-box
 dspzeeplus.com###fbox-background
 dspzeeplus.com###fbox-button
 dspzeeplus.com###fbox-close
 dspzeeplus.com###fbox-display
 dspzeeplus.com###fbox-link
 dspzeeplus.com###twist-blogger-fan-page
+dspzeeplus.com##.popup-box
 extremepc.in.th###arevicofancy-loading
 extremepc.in.th###arevicofancy-overlay
 extremepc.in.th###arevicofancy-tmp
@@ -55,18 +55,18 @@ juropy.com###arevicofancy-loading
 juropy.com###arevicofancy-overlay
 juropy.com###arevicofancy-tmp
 juropy.com###arevicofancy-wrap
-kaijeaw.com##.backdrop
-kaijeaw.com##.fb_overlay
-kaijeaw.com##.popup-like
-kaijeaw.com##.popup-like-box
-kaijeaw.com##.popup-like-box-backdrop
 kaijeaw.com###arevicofancy-loading
 kaijeaw.com###arevicofancy-overlay
 kaijeaw.com###arevicofancy-tmp
 kaijeaw.com###arevicofancy-wrap
 kaijeaw.com###fb_box
-kidjarak.com##.stb-container
+kaijeaw.com##.backdrop
+kaijeaw.com##.fb_overlay
+kaijeaw.com##.popup-like
+kaijeaw.com##.popup-like-box
+kaijeaw.com##.popup-like-box-backdrop
 kidjarak.com###spu-1170
+kidjarak.com##.stb-container
 kiitdoo.com##.dgd_stb_box.clean_white
 kodlikes.com##.fancybox-overlay
 kodlikes.com##.fancybox-wrap
@@ -79,9 +79,11 @@ liekr.com###showLikePopup
 likessara.com###facebookpopup-fanback
 lonely-rooyang.com##.fancybox-overlay
 lonely-rooyang.com##.fancybox-wrap
+m.online-station.net###leaderboard_bottom.bottom_banner
+m.online-station.net###leaderboard_bottom.bottom_banner#close_banner
+manyum.com###ui_popup_window_tpl
 manyum.com###win_showLike
 manyum.com###win_showLike_mask
-manyum.com###ui_popup_window_tpl
 meekhao.com##.dgd_stb_box.clean_white
 meepanda.com###facebookpopup-fanback
 mthai.com###arevicofancy-loading
@@ -91,14 +93,14 @@ mthai.com###arevicofancy-wrap
 mthai.com###coverpage
 newstimeline.net###makingdifferentpopup
 ohmpiang.com###check-also-box
-online-station.net##.bjqs
-online-station.net##.introjs-overlay
-online-station.net##.introjs-helperLayer
-online-station.net##.introjs-tooltipReferenceLayer
 online-station.net###ads-overlay
 online-station.net###ads-preload-popup
 online-station.net###close-preload
 online-station.net###welcome
+online-station.net##.bjqs
+online-station.net##.introjs-helperLayer
+online-station.net##.introjs-overlay
+online-station.net##.introjs-tooltipReferenceLayer
 oopsmobile.net##.fancybox-overlay
 oopsmobile.net##.fancybox-wrap
 petmaya.com###arevicofancy-loading
@@ -122,30 +124,30 @@ tgpl.in.th###arevicofancy-loading
 tgpl.in.th###arevicofancy-overlay
 tgpl.in.th###arevicofancy-tmp
 tgpl.in.th###arevicofancy-wrap
-thaihitz.com##.backdrop
-thaihitz.com##.facebook-like-box-pop-up-overlay
-thaihitz.com##.fb_overlay
-thaihitz.com##.popup-like
-thaihitz.com##.popup-like-box
-thaihitz.com##.popup-like-box-backdrop
 thaihitz.com###arevicofancy-loading
 thaihitz.com###arevicofancy-overlay
 thaihitz.com###arevicofancy-tmp
 thaihitz.com###arevicofancy-wrap
 thaihitz.com###facebook-like-box-pop-up
 thaihitz.com###fb_box
+thaihitz.com##.backdrop
+thaihitz.com##.facebook-like-box-pop-up-overlay
+thaihitz.com##.fb_overlay
+thaihitz.com##.popup-like
+thaihitz.com##.popup-like-box
+thaihitz.com##.popup-like-box-backdrop
 thaijobsgov.com##.backdrop
 thaijobsgov.com##.popup-like-box
 thailandbestbeauty.com###cboxOverlay
 thailandbestbeauty.com###colorbox
 thaiza.com###fbpop
-thetechr.com##.jinda-wrapper
-thetechr.com##.jinda-overlay-background
 thetechr.com##.jinda-content-block
 thetechr.com##.jinda-facebook-like-box
+thetechr.com##.jinda-overlay-background
+thetechr.com##.jinda-wrapper
+tnews.co.th###myModal
 tnews.co.th##.in.fade.modal-backdrop
 tnews.co.th##.modal
-tnews.co.th###myModal
 toritalk.com##.bottomad
 toritalk.com##.jquery-modal.blocker
 toritalk.com##.td-front-end-display-block
@@ -180,8 +182,8 @@ zaapmak.com##iframe
 ||manyum.com^$script,ui_popup_window_tpl
 ||meekhao.com/*/dreamgrow-scroll-triggered-box/*
 ||meepanda.com/*/new-facebook-popup-likebox-responsive/*
-||miru-anime.net/*/popups/*
 ||miruanime.net/*/popups/*
+||miru-anime.net/*/popups/*
 ||newstimeline.net/*/jquery.magnific-popup.min.js
 ||online-station.net/*/intro.min.js
 ||online-station.net/*/jquery.preload_ads.js
@@ -190,15 +192,17 @@ zaapmak.com##iframe
 ||petmaya.com/*/facebook-page-promoter-lightbox-premium/*
 ||pol-ball.com/*/facebook-popup-box/*
 ||shopspotapp.com/*/popups/*
+||shopspotapp.com/*/popups/*
 ||siamchatroom.com/light_ads^
 ||siamok.com/light_ads/*
 ||spokedark.tv/*/ud-social/*
+||sudting.party/*/new-facebook-popup-likebox-responsive/*
 ||taghr.net/*/uji-popup/*
 ||techmoblog.com/*colorbox*
-||thailandbestbeauty.com/*colorbox*
-||thailandbestbeauty.com/*/colorbox.css
 ||thaihitz.com/*/like_box.js
 ||thaijobsgov.com/*/fancybox/*
+||thailandbestbeauty.com/*/colorbox.css
+||thailandbestbeauty.com/*colorbox*
 ||thaimobilecenter.com/colorbox^
 ||thaiza.com/nodo.html
 ||thetechr.com/*/jinda-facebook-lightbox/*
