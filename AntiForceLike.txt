@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Thai AntiForceLike Filter (GitHub Version)
-! Version: 201603021824
+! Version: 201603061825
 ! Author: kowith337
 ! Homepage: https://github.com/kowith337/ThaiAntiForceLike
 ! Expires: 1 day
@@ -77,6 +77,9 @@ laughwoo.com###arevicofancy-loading
 laughwoo.com###arevicofancy-overlay
 laughwoo.com###arevicofancy-tmp
 laughwoo.com###arevicofancy-wrap
+liceza.com###cboxOverlay
+liceza.com###cboxWrapper
+liceza.com###colorbox
 liekr.com###showLikePopup
 likessara.com###facebookpopup-fanback
 lonely-rooyang.com##.fancybox-overlay
@@ -172,6 +175,7 @@ zaapmak.com##iframe
 ||brandbuffet.in.th/*/social-popup/*
 ||coregamerth.com/*/jquery-cookie/*
 ||coregamerth.com/*/popups/*
+||everythingisee.in.th/*/facebook-page-promoter-lightbox/*
 ||frynn.com/*/fb-traffic-pop/*
 ||game-tep.com/*/fancy-box/*
 ||ithaihotnews.com/*/like-jacking-ninja/*
@@ -246,6 +250,7 @@ zaapmak.com##iframe
 ||facebook.com/plugins/likebox.php?$domain=newstimeline.net
 ||facebook.com/plugins/likebox.php?$domain=postjung.com
 ||hellobar.com^$domain=grappik.com
+||yourjavascript.com^$domain=liceza.com
 
 ! Inline script blocking (Only work for uBlock0 on Firefox)
 autocar.in.th##script:contains(makingdifferent_ppopup)
