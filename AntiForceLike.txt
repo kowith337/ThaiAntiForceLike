@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Thai AntiForceLike Filter (GitHub Version)
-! Version: 201603212052
+! Version: 201604161514
 ! Author: kowith337
 ! Homepage: https://github.com/kowith337/ThaiAntiForceLike
 ! Expires: 1 day
@@ -10,6 +10,38 @@
 ! Works for desktop view only.
 ! This paste doesn't guaranteed about all rules are compatible to use in AdBlock Plus or any Ad-Blocking extension filter,
 ! except uBlock0 (Also work very effective on Firefox).
+
+! Shared Rules
+##.facebook-like-box-pop-up-overlay
+##.fblike
+##.fb_overlay
+##.fb-popup
+##.popup-like
+##.popup-like-box
+##.popup-like-box-backdrop
+###check-also-box
+###facebookpopup-fanback
+###facebook-like-box-pop-up
+###fanback
+###fblikebg
+###fblikepop
+###fbox-background
+###fbpop
+###fbpop_box
+###fbpop_box2
+###fb_box
+###loginModal
+###makingdifferentpopup
+/easy-facebook-likebox
+/facebook-fanbox*
+/facebook-page-promoter-lightbox*
+/facebook_popup*
+/fb-traffic-pop
+/floating-social-bar
+/like-fb
+/like_box*
+/new-facebook-popup-likebox-responsive
+/ud-social
 
 ! Generic
 12sum.com##.item-thumbs .hover-wrap
@@ -180,6 +212,7 @@ zaapmak.com##iframe
 ||brandbuffet.in.th/*/social-popup/*
 ||coregamerth.com/*/jquery-cookie/*
 ||coregamerth.com/*/popups/*
+||dspzeeplus.com/*/facebook-page-promoter-lightbox/*
 ||everythingisee.in.th/*/facebook-page-promoter-lightbox/*
 ||frynn.com/*/fb-traffic-pop/*
 ||game-tep.com/*/fancy-box/*
@@ -197,7 +230,6 @@ zaapmak.com##iframe
 ||laughwoo.com/*/like-jacking-ninja/*
 ||likessara.com/*/like-fb/*
 ||lonely-rooyang.com/*/arscode-ninja-popups/*
-||manyum.com^$script,ui_popup_window_tpl
 ||marketingoops.com/popup-ad*
 ||marketingoops.com/*/itro-popup/*
 ||meekhao.com/*/dreamgrow-scroll-triggered-box/*
@@ -214,6 +246,7 @@ zaapmak.com##iframe
 ||overgraphy.com/*/easy-facebook-likebox/*
 ||petmaya.com/*/facebook-page-promoter-lightbox-premium/*
 ||pol-ball.com/*/facebook-popup-box/*
+||senseonfilms.com/*/facebook-page-promoter-lightbox/*
 ||shopspotapp.com/*/popups/*
 ||shopspotapp.com/*/popups/*
 ||siamchatroom.com/light_ads^
