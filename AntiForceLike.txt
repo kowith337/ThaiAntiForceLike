@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Thai AntiForceLike Filter (GitHub Version)
-! Version: 201604302308
+! Version: 201605172052
 ! Author: kowith337
 ! Homepage: https://github.com/kowith337/ThaiAntiForceLike
 ! Expires: 1 day
@@ -154,6 +154,8 @@ petmaya.com###arevicofancy-overlay
 petmaya.com###arevicofancy-tmp
 petmaya.com###arevicofancy-wrap
 petmaya.com###arvlbdata
+picnic.ly##.essb_bottombar
+picnic.ly##.essb-popup
 pol-ball.com###facebookpopup-fanback
 postjung.com###fbpop_box
 postjung.com###fbpop_box2
@@ -297,6 +299,9 @@ zaapmak.com##iframe
 ||facebook.com/plugins/likebox.php?$domain=newstimeline.net
 ||facebook.com/plugins/likebox.php?$domain=postjung.com
 ||hellobar.com^$domain=grappik.com
+||netdna-ssl.com/*/advanced-ads/*$domain=picnic.ly
+||netdna-ssl.com/*/easy-social-share-buttons3/*$domain=picnic.ly
+||sales-frontier.com^$domain=doowonder.com
 ||yourjavascript.com^$domain=liceza.com
 
 ! Inline script blocking (Only work for uBlock0 on Firefox)
@@ -306,6 +311,7 @@ boxzaracing.com##script:contains(bzpopup_timer)
 dspzeeplus.com##script:contains(popup_facebook_box)
 liekr.com##script:contains($showLikePopup)
 manyum.com##script[id="ui_popup_window_tpl"]
+picnic.ly##script:contains(advads)
 postjung.com##script:contains(fbpop)
 share-si.com##script:contains(ccpop)
 teededball.com##script:contains(bzpopup_timer)
