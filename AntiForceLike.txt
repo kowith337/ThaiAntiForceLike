@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Thai AntiForceLike Filter (GitHub Version)
-! Version: 201605281624
+! Version: 201606052310
 ! Author: kowith337
 ! Homepage: https://github.com/kowith337/ThaiAntiForceLike
 ! Expires: 1 day
@@ -114,10 +114,6 @@ liceza.com###cboxWrapper
 liceza.com###colorbox
 liekr.com###showLikePopup
 likessara.com###facebookpopup-fanback
-linkis.com##.big-popup
-linkis.com##.js-modal-popup
-linkis.com##.js-popups-html
-linkis.com##.modal-popup
 lonely-rooyang.com##.fancybox-overlay
 lonely-rooyang.com##.fancybox-wrap
 m.online-station.net###leaderboard_bottom.bottom_banner
@@ -213,11 +209,14 @@ upic.me###simplemodal-overlay
 zaapmak.com##iframe
 
 ! Script, Stylesheet and Sensitive blocking rules
+||4toom.com/*/modal-dialog/*
 ||anitime.in.th/*/easy-facebook-likebox/*
 ||araideewa.com/*/facebook-fanbox-popup/*
 ||araidii.com/*/facebook-popup-box/*
 ||aroundnews.net/*/easy-facebook-likebox/*
 ||aroundnews.net/*/like-jacking-ninja/*
+||blogger.com/*lightbox_bundle.css$domain=zapver555.com
+||blogger.com/*lbx__th.js$domain=zapver555.com
 ||brandbuffet.in.th/*/social-popup/*
 ||coregamerth.com/*/jquery-cookie/*
 ||coregamerth.com/*/popups/*
@@ -278,10 +277,7 @@ zaapmak.com##iframe
 ||yaklai.com/*/ud-social/*
 
 ! Special Tag Rules
-||dodeden.com^$other,intro
-||dodeden.com^$script,intro
-||linkis.com$xmlhttprequest
-||linkis.com/ajax/get-popup-html?$important
+||linkis.com/ajax^$xmlhttprequest
 ||miruanime.net/?spu_action$xmlhttprequest
 ||miru-anime.net/?spu_action$xmlhttprequest
 
