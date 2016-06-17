@@ -116,8 +116,6 @@ liekr.com###showLikePopup
 likessara.com###facebookpopup-fanback
 linkis.com##.deeper-overlay
 linkis.com##.js-forceAuth-popup-light
-linkis.com##.js-modal-popup
-linkis.com##.js-popups-html
 linkis.com##.other-pages-holder .left-column
 linkis.com##.other-pages-holder .right-column
 linkis.com##.popup_force-auth
