@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Thai AntiForceLike Filter (GitHub Version)
-! Version: 201610281919
+! Version: 201612141148
 ! Author: kowith337
 ! Homepage: https://github.com/kowith337/ThaiAntiForceLike
 ! Expires: 1 day
@@ -299,7 +299,10 @@ zaapmak.com##iframe
 ||linkis.com/ajax/update-click?*force_auth
 ||miruanime.net/?spu_action$xmlhttprequest
 ||miru-anime.net/?spu_action$xmlhttprequest
-||online-station.net/*ads_$script,stylesheet
+||online-station.net/assets/css/ads$stylesheet
+||online-station.net/assets/js/ads$script
+||online-station.net/assets/js/facebook$script
+||online-station.net/assets/js/google*$important
 
 ! 3P Block (Maybe break some sites and can't like, comments, share via Facebook on those sites)
 ||connect.facebook.net^$domain=autocar.in.th
