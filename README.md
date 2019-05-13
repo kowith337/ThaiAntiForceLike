@@ -1,4 +1,6 @@
-# ThaiAntiForceLike
+# ThaiAntiForceLike [Succeeded by ThaiParanoidBlock]
+This list was no longer maintained and get replaceed by [ThaiParanoidBlock](https://github.com/kowith337/ThaiParanoidBlock), you can move to there for keep prevent ads and annoyance in Thai sites.
+
 ### Get rid of "Overlay Popups" that **trying to integrate your social network account, force you to like and/or follow pages and other accounts.**
 ##### *Sorry, this filter mainly targeting to sites in Thailand, again.*
 
